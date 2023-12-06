@@ -1,32 +1,15 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+#include <iostream>
+#include<string>
+using namespace std;
+int main() {
+string FirstName;
+string LastName;
+  int age;
+  float weight;
+  cout<<"Enter your First Name, Last Name,Age and weight separated by spaces"<<endl;
+  cin>>FirstName>>LastName>>age>>weight;
+  cout<<"Name: "<<FirstName<<" "<<LastName<<endl;
+  cout<<"Age:" <<age<<endl;
+  cout<<"Weight:" <<weight<<endl;
+return 0;
+}
